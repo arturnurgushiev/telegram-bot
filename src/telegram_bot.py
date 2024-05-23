@@ -1,5 +1,7 @@
-import telebot
 import time
+
+import telebot
+
 
 class TelegramBot:
     def __init__(self, bot_token, api, analyzer, interval):
